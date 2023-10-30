@@ -1,0 +1,47 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+a{
+    margin-left: 10px;
+}
+p{
+    color:gray;
+}
+h2{
+    color:gray;
+    text-decoration-line: underline;
+}
+table{
+    border: solid 1px Gray;
+    border-collapse: collapse;
+    color:gray;
+    border-radius: 1em;
+    border-width: 5px;
+}
+tr, td{
+    border: 0.5px solid gray;
+    border-collapse: collapse;
+    height: 25px;
+
+}
+.Breedtekolom1{
+    width: 250px;
+}
+.Breedtekolom2{
+    width: 600px;
+}
+a:link{
+    color: GRAY;
+}
+a:visited{
+    color: rgb(243, 61, 61);
+}
+A:hover{
+    color: green;
+}
+.foto{
+    height: 300px;
+    margin-top: 0%;
+
+}

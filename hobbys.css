@@ -1,0 +1,29 @@
+body{
+    font-family: 'Times New Roman', Times, serif;
+}
+h1 {
+    background-color: black;
+    color: gray;
+    margin-left: 0%;
+    text-align: center;
+    text-size-adjust: 50px; 
+}
+a{
+    color: gray;
+    margin-left: 10px;
+}
+p,h2{
+    color: gray;
+}
+img{
+    width: auto;
+}
+a:link{
+    color: GRAY;
+}
+a:visited{
+    color: rgb(243, 61, 61);
+}
+A:hover{
+    color: green;
+}

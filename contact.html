@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+    <link rel="icon" href="faviconJoeri.png" sizes="16x16" type="image/png">
+    <Head>
+      <link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="contact.css">
+<title>Contact</title>
+    </Head>
+    <Body>
+      <header class="sticky-top">
+        <nav class="navbar navbar-expand-md bg-dark text-light">
+            <div class="container-fluid">
+              <a class="navbar-brand" href="#">
+                <img src="faviconJoeri.png" alt="Favicon Joeri" width="30" height="24">
+              </a>
+              <button class="navbar-toggler bg-light" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link active text-light" aria-current="page" href="#">Contact</a>
+                  </li>
+                </div>
+            </div>
+          </nav>
+        </header>
+        <p>- Indien je contact met me wenst op te nemen vul dan onderstaande gegevens in.</p>
+        <P>- In de bericht box zet je de reden waarom je contact wenst op te nemen.</P>
+        <div class="form">
+     <form action="https://tm-statweb.be/form.php" method="post"></form>
+        <label for="Voornaam">Voornaam*</label> 
+        <input required type="text" name="Voornaam" id="Voornaam" placeholder="Jef"> 
+      </div>
+        <div class="form">
+      <label for="Achternaam">Achternaam*</label>
+      <input required type="text" name="Achternaam" id="Achternaam" placeholder="Fransen">
+   </div>
+      <div class="form">
+        <label for="e-mail">e-mail*</label>
+        <input required type="email" id="email" name="email" placeholder="jef.fransen@email.com">
+      </div>
+        <div class="form">
+      <label for="Telefoonnummer">Telefoonnummer*</label>
+      <input type="tel" name="Telefoonnummer" id="Telefoonnummer" value="Optioneel">
+   </div>
+      <div class="form">
+        <label for="Bericht">Bericht*</label>
+        <textarea required name="Bericht" id="Bericht" cols="30" rows="10" placeholder="Wat,waarom, enz"></textarea>
+      </div>
+        <div class="form">
+        <label for="Verzenden">
+            <input type="submit" value="Verzenden" id="Verzenden" name="Verzenden">
+        </label>
+      </div>
+      <footer class="bg-dark">
+        <div class="container text-center">
+            <div class="row">
+                <div class="col col-xs-6 text-light">
+                 <a href="https://www.linkedin.com/feed/"><img src="linked in logo.png" alt="linkedinlogo" title="linkedin paginga Joeri Vervloessem" width="30" height="24"></a>
+                 <a href="https://www.facebook.com/groups/www.fcdenbolle.jouwweb.be"><img src="facebook logo.png" alt="facebooklogo" title="facebook pagina FC Den bolle" width="30" height="24"></a>  
+                </div>
+            </div>
+            <div class="row">
+                <div class="col col-xs-6 text-light text-left">
+                    © Copyright Joeri Vervloessem
+                </div>
+        </div>
+    </footer>
+      <script src="js/bootstrap.min.js"></script>
+    </Body>
+</html>
