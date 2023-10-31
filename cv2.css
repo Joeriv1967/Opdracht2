@@ -1,0 +1,16 @@
+h1{
+    text-align: left;
+}
+.kolom1{
+    background-color: gray;
+    color: black;
+    border-collapse: collapse;
+}
+.foto{
+    height: 100px;
+    float:  left; 
+    border-radius: 16rem;
+}
+h3{
+    text-decoration: underline;
+}

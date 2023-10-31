@@ -1,43 +1,29 @@
 body{
     font-family: 'Times New Roman', Times, serif;
 }
-h1 {
-    background-color: black;
-    color: gray;
-    margin-left: auto;
-    text-align: center;
-    text-size-adjust: 50px; 
+.foto1{
+    height: 250px;
+    float: left;
+    border-radius: 4em;
+    margin: 5px;
 }
-a{
-    color: gray;
-    margin-left: 10px;
+.kader{
+    background-color: lightgray;
+    color: black;
+    border-radius: 4em;
+    
 }
-img{
-    height: 400px;
-    border: solid 0.5PX red;
-    margin-top: 5px;
+.foto2{
+    height: 250px;
+    float: right;
+    border-radius: 4em;
+    margin: 5px;
 }
-textarea{
-    background-color: gray;
-    width: auto;
-    border: solid 1px red;
+.tekst1{
+    margin-left: 20px;
+    padding-top: 60px;
 
 }
-a:link{
-    color: gray;
-}
-a:visited{
-    color: rgb(243, 61, 61);
-}
-A:hover{
-    color: green;
-}
-div{
-    background-color: black;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
-}
-.form{
-    background-color: white;
+.tekst2{
+    padding-top: 60px;
 }

@@ -1,37 +1,9 @@
 body{
     font-family: 'Times New Roman', Times, serif;
 }
-h1{
-    color: gray;
-    margin-left: auto;
-    text-align: center;
-    text-size-adjust: 50px; 
-}
-a{
-    margin-left: 10px;
-}
 p{
-    color: gray;
-    font-size: large;
+    text-align: center;
 }
-.form{
-    background-color: white;
-    color: gray;
-    margin: 5px;
-    padding-left: auto;
-    margin-left: 20px;
-
-}
-a:link{
-    color: GRAY;
-}
-A:hover{
-    color: green;
-}
-div{
-    background-color: black;
-    color: gray;
-    position: -webkit-sticky; /* Safari */
-    position: sticky;
-    top: 0;
+.bg{
+    background-color: lightgray;
 }
