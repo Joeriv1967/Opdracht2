@@ -2,6 +2,8 @@
 <html>
     <link rel="icon" href="faviconJoeri.png" sizes="16x16" type="image/png">
     <Head>
+      <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
       <link rel="stylesheet" href="css/bootstrap.min.css">
 <link rel="stylesheet" href="contact.css">
 <title>Contact</title>
@@ -31,18 +33,18 @@
         <div class="container-fluid bg">
         <p><strong>- Indien je contact met me wenst op te nemen vul dan onderstaande gegevens in.</strong></p>
         <P><strong>- Vergeet niet aan te duiden waarom je een bericht stuurt</strong></P>
-        <form action="https://tm-statweb.be/form.php" method="post">
+        <form method="post" action="https://tm-statweb.be/forms.php">
         <div class="mb-3">
           <label for="Naam" class="form-label"><strong>Naam</strong></label>
-          <input type="Text" class="form-control" id="Naam" placeholder="Janssens">
+          <input type="Text" class="form-control" id="Naam" name="Naam" placeholder="Janssens" required>
         </div>
         <div class="mb-3">
           <label for="Voornaam" class="form-label"><strong>Voornaam</strong></label>
-          <input type="text" class="form-control" id="Voornaam" placeholder="Jos">
+          <input type="text" class="form-control" id="Voornaam" name="Voornaam" placeholder="Jos" required>
         </div>
         <div class="mb-3">
-          <label for="exampleFormControlInput1" class="form-label"><strong>E-mail adres</strong></label>
-          <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+          <label for="E-mail adres" class="form-label"><strong>E-mail adres</strong></label>
+          <input type="email" class="form-control" id="E-mail adres" name="E-mail adres" placeholder="name@example.com" required>
         </div>
         <label for="Keuzemenu" class="form-label"><strong>Selectie waarvoor je een bericht wenst te sturen</strong></label>
         <select class="form-select" aria-label="Default select example">
@@ -54,16 +56,18 @@
           <option value="5">Voetbal</option>
           <option value="6">Koken</option>
           <option value="7">skiën</option>
+          <option value="8">Overige</option>
         </select>
         <div class="mb-3">
           <label for="Uw bericht" class="form-label"><strong>Uw bericht</strong></label>
-          <textarea class="form-control" id="Uw bericht" rows="15"></textarea>
+          <textarea name="Uw bericht" class="form-control" id="Uw bericht" rows="15" required></textarea>
         </div>
         <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1">
+          <input type="checkbox" class="form-check-input" id="exampleCheck1" name="exampleCheck1" required>
           <label class="form-check-label" for="exampleCheck1">Alles ingevuld</label>
         </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
+        <button type="submit" class="btn btn-primary" id="Submit" name="Submit">Submit</button>
+    
       </form>
     </div>
       <footer class="bg-dark">
@@ -77,7 +81,7 @@
             </div>
             <div class="row">
                 <div class="col col-xs-6 text-light text-left">
-                    © Copyright Joeri Vervloessem
+                  &copy;Copyright Joeri Vervloessem
                 </div>
         </div>
     </footer>
